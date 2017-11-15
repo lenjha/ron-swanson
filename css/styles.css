@@ -8,18 +8,81 @@
   src: url("../fonts/Calm.ttf") format("truetype");
 }
 
-.tiles {
+.about-ron {
   width: 45%;
+  float: left;
+  text-align: justify;
 }
 
-img {
+body {
+  background-color: #ededed;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+
+.icon-div {
+  display: block;
+  font-size: 2em;
+}
+
+.email {
+  background-color: #8c2121;
+  width: 35%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: calm;
+}
+
+.email a {
+  color: white;
+}
+
+i {
+  margin: 40px 10px 40px 0px;
+}
+
+.portrait {
+  text-align: center;
+}
+
+.portrait img {
+  display: inline-block;
+}
+
+.tiles {
+  width: 45%;
+  float: right;
+}
+
+.tiles img {
   width: 22%;
   height: auto;
   vertical-align: middle;
 }
 
+.navbar {
+  padding: 20px;
+  font-family: calm;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
 .nav-header {
   font-family: gotcha;
+  float: left;
 }
 
 .calm {
