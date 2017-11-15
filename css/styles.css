@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "gotcha";
+  src: url("../fonts/GOTCHA.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "calm";
+  src: url("../fonts/Calm.ttf") format("truetype");
+}
+
+.tiles {
+  width: 45%;
+}
+
+img {
+  width: 22%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.nav-header {
+  font-family: gotcha;
+}
+
+.calm {
+  font-family: "calm"
+}
