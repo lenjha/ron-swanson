@@ -12,6 +12,7 @@
   width: 45%;
   float: left;
   text-align: justify;
+  margin-left: 20px;
 }
 
 body {
@@ -28,15 +29,19 @@ li {
 .icon-div {
   display: block;
   font-size: 2em;
+  float: left;
 }
 
 .email {
   background-color: #8c2121;
+  border-radius: 10px;
+  font-family: calm;
   width: 35%;
   padding: 30px;
   text-align: center;
-  border-radius: 10px;
-  font-family: calm;
+  margin-bottom: 30px;
+  float: left;
+  clear: both;
 }
 
 .email a {
@@ -53,6 +58,12 @@ i {
 
 .portrait img {
   display: inline-block;
+  z-index: -1;
+}
+
+.text {
+  display: block;
+  float: left;
 }
 
 .tiles {
@@ -69,6 +80,7 @@ i {
 .navbar {
   padding: 20px;
   font-family: calm;
+  overflow: auto;
 }
 
 a {
@@ -80,9 +92,28 @@ a:hover {
   color: red;
 }
 
-.nav-header {
+h1 {
   font-family: gotcha;
   float: left;
+  font-size: 5em;
+  margin: 0;
+}
+
+#none {
+  color: #8c2121;
+}
+
+h2 {
+  margin: 0;
+}
+
+h4 {
+  margin-top: 2px;
+}
+
+.subhead {
+  font-size: 3em;
+  text-align: left;
 }
 
 .calm {
